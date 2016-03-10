@@ -1,0 +1,467 @@
+﻿/* 
+
+ --------------Czcionki-----------------
+
+ */
+ 
+ @font-face {
+  font-family: 'OpenSansBold';
+  src: url('fonts/OpenSans-Bold.ttf');
+}
+
+ @font-face {
+  font-family: 'OpenSansLight';
+  src: url('fonts/OpenSans-Light.ttf');
+}
+
+ @font-face {
+  font-family: 'OpenSans';
+  src: url('fonts/OpenSans-Regular.ttf');
+}
+
+
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+	
+	text-align:center;
+}
+
+/* 
+
+ --------------Slider-----------------
+
+ */
+
+.slider{
+width:100%;
+height:auto;
+position:relative;
+}
+
+.slider img{
+width:100%;
+height:auto;
+}
+
+.slogan{
+z-index:10;
+position:absolute;
+margin-top:-315px;
+margin-left:225px;
+font-size:36px;
+text-align:left;
+font-family: OpenSansLight;
+color:white;
+}
+
+.slogan-span{
+background-color:#0074c5;
+padding-left:25px;
+padding-right:25px;
+padding-top:8px;
+padding-bottom:8px;
+float:left;
+clear:both;
+}
+
+/* 
+
+ --------------Header/ LOGO/ MENU-----------------
+
+ */
+
+.header{
+width:1025px;
+height:180px;
+z-index:30;
+position:absolute;
+left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.logo-section{
+width:1025px;
+height:105px;
+background-color:white;
+}
+
+.logo{
+float:left;
+margin-left:55px;
+margin-top:25px;
+}
+
+.logo img{
+width:261;
+height:67;
+}
+
+.logo-kontakt{
+float:right;
+margin-top:43px;
+margin-right:75px;
+}
+
+
+
+.tel{
+vertical-align:middle;
+font-family:OpenSansBold;
+font-size:19px;
+color:#4f4f4f;
+padding-left:10px;
+}
+
+.email{
+vertical-align:middle;
+font-family:OpenSansBold;
+font-size:15px;
+color:#4f4f4f;
+padding-left:2px;
+}
+
+.menu{
+width:1025px;
+height:75px;
+background-color:#f6f6f6;
+font-family:OpenSansBold;
+font-size:14px;
+color:#4f4f4f;
+position:absolute;
+ margin: 0 !important;
+    padding: 0 !important;
+}
+
+.menu ul{
+left:0px;
+    right:0px;
+    margin-left:auto;
+    margin-right:auto;
+margin-top: 0 !important;
+    padding-top: 0 !important;
+	
+	
+}
+
+.menu ul li{
+display:inline;
+float: left;
+
+}
+
+.menu ul li a{
+color:#4f4f4f;
+display: inline-block;
+    text-decoration: none;
+    padding: 30px 12px 27px 10px;
+}
+
+.menu ul li a:hover{
+color:white;
+background-color:#0074c5;
+background-image:url('obrazki/bialastralka.png');
+background-repeat: no-repeat;
+	background-position:top center;
+		
+display: inline-block;
+    text-decoration: none;
+    padding: 30px 12px 29px 10px;
+}
+
+.menu ul ul{
+display: none;
+position: absolute;
+clear:both;
+z-index:99;
+}
+
+.menu ul li:hover > ul{
+display: block;
+z-index:99;
+}
+
+.menu ul ul li{
+color:#4f4f4f;
+display: inline-block;
+    background-color:#f6f6f6;
+    padding: 20px 0px 20px 0px;
+	width:210px;
+margin-left:145px;
+clear:both;
+z-index:99;
+}
+
+
+.menu ul ul li:hover{
+color:white;
+background-color:#0074c5;
+}
+
+.menu ul ul li a{
+clear:both;
+padding:0px;
+padding: 10px 0px 10px 0px;
+}
+.menu ul ul li a:hover{
+clear:both;
+padding:0px;
+color:white;
+background-color:#0074c5;
+background-image:none;
+padding: 10px 0px 10px 0px;
+}
+
+.content{
+width:100%;
+height:auto;
+text-align:center;
+
+}
+
+.content h1{
+margin-top:185px;
+font-family:OpenSansBold;
+font-size:48px;
+color:4f4f4f;
+}
+
+.content-tekst{
+margin-top:30px;
+padding-left:240px;
+padding-right:240px;
+font-size:15px;
+font-family:OpenSansBold;
+color:4f4f4f;
+}
+
+.content-tekst2{
+font-family: OpenSans;
+margin-top:30px;
+padding-left:240px;
+padding-right:240px;
+font-size:15px;
+color:4f4f4f;
+}
+
+.kartony{
+display:inline;
+z-index:10;
+position:absolute;
+left:0px;
+    right:0px;
+    margin-left:auto;
+    margin-right:auto;
+	margin-top:-50px;
+}
+
+.skontaktuj{
+width:100%;
+height:auto;
+
+}
+
+.lewa{
+float:left;
+width:50%;
+height:230px;
+background-color:#0074c5;
+box-shadow: 0 4px 2px -2px gray;
+
+
+}
+
+.prawa{
+float:left;
+width:50%;
+height:230px;
+background-color:#f6f6f6;
+box-shadow: 0 4px 2px -2px gray;
+background-image:url('obrazki/blue-arrow.png');
+background-repeat: no-repeat;
+	background-position:center left;
+}
+
+.masz{
+color:white;
+float:right;
+margin-top:50px;
+    font-size:44px;
+	font-family: OpenSansLight;
+	margin-right:70px;
+}
+
+.kkk{
+clear:both;
+float:right;
+color:white;
+font-family: OpenSansLight;
+	margin-right:70px;
+	 font-size:36px;
+	 margin-top:20px;
+}
+
+
+.phone{
+float:left;
+margin-left:70px;
+margin-top:60px;
+}
+
+.mail{
+clear:both;
+float:left;
+margin-left:70px;
+margin-top:8px;
+}
+.tel2{
+font-family: OpenSansLight;
+font-size:26px;
+color:#4f4f4f;
+padding-left:10px;
+vertical-align:middle;
+}
+
+.mail2{
+font-family: OpenSansLight;
+font-size:21px;
+color:#4f4f4f;
+padding-left:5px;
+vertical-align:middle;
+}
+
+.formu{
+clear:both;
+float:left;
+margin-left:70px;
+margin-top:25px;
+}
+
+.mapka{
+
+width:100%;
+height:auto;
+clear:both;
+}
+
+.chmurka{
+clear:both;
+width:284px;
+height:158px;
+background-image:url('obrazki/chmurka.png');
+background-repeat:no-repeat;
+z-index:10;
+margin-top:125px;
+margin-left:630px;
+position:absolute;
+text-align:center;
+font-size:15px;
+font-family:OpenSans;
+color:;#4f4f4f;
+}
+
+.footer{
+position:relative;
+width:100%;
+height:300px;
+margin-top: 0 !important;
+    padding-top: 0 !important;
+background-color:#4f4f4f;
+clear:both;
+font-family:OpenSans;
+color:#bebebe;
+}
+
+
+
+.fk{
+display: inline-block;
+margin-left:35px;
+float:left;
+width:25%;
+height:200px;
+position:relative;
+}
+.footer-kartony-tytul{
+float:left;
+color:white;
+font-size:18px;
+font-family:OpenSansBold;
+clear:both;
+}
+
+.four li a{
+font-family:OpenSans;
+font-size:14px;
+color:#bebebe;
+text-decoration:none;
+}
+
+
+.four li a:hover{
+color:yellow;
+}
+
+
+
+.four ul{
+list-style-image: url('obrazki/li-arrow.png');
+text-align:left;
+float:left;
+clear:both;
+}
+.
+
+.fp{
+
+clear:both;
+margin-left:65px;
+float:left;
+margin-top:0px; 
+width:25%;
+height:200px;
+position:relative;
+display: inline-block;
+}
+
+.footer-poli-tytul{
+float:left;
+color:white;
+font-size:18px;
+font-family:OpenSansBold;
+clear:both;
+}
+
+.fp ul li a{
+font-family:OpenSans;
+font-size:14px;
+color:#bebebe;
+text-decoration:none;
+}
+
+
+
+.fp ul{
+list-style-image: url('obrazki/li-arrow.png');
+text-align:left;
+float:left;
+clear:both;
+}
+
+.calosc{
+
+width:80%;
+height:auto;
+left:0px;
+    right:0px;
+    margin-left:190px;
+    margin-right:190px;
+}
+
+.four{
+width:260px;
+height:auto;
+float:left;
+}
